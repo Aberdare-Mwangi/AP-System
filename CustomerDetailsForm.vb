@@ -9,7 +9,7 @@ Public Class CustomerDetailsForm
     Private Sub DisplayButton_Click(sender As Object, e As EventArgs) Handles DisplayButton.Click
         Dim strConnection As String = "provider=Microsoft.ACE.OLEDB.12.0;" &
 "Data Source=C:\Users\danmw\Documents\HRS.accdb;"
-        Dim myConnection As New OleDbConnection(strConnection)
+        Dim myConnection As New OleDbConnection(connectionString)
         Dim strSQL As String = "Select * from CustomerDetails"
         Dim myCommand As New OleDbCommand(strSQL, myConnection)
         Dim myReader As OleDbDataReader
