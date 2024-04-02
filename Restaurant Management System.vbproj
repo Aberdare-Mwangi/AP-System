@@ -1,0 +1,301 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Restaurant_Management_System</RootNamespace>
+    <StartupObject>Sub Main</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Alcohol\Image1.jpeg" />
+    <None Remove="Images\Alcohol\Image10.jpeg" />
+    <None Remove="Images\Alcohol\Image2.jpeg" />
+    <None Remove="Images\Alcohol\Image3.jpeg" />
+    <None Remove="Images\Alcohol\Image4.jpeg" />
+    <None Remove="Images\Alcohol\Image5.jpeg" />
+    <None Remove="Images\Alcohol\Image6.jpeg" />
+    <None Remove="Images\Alcohol\Image7.jpeg" />
+    <None Remove="Images\Alcohol\Image8.jpeg" />
+    <None Remove="Images\Alcohol\Image9.jpeg" />
+    <None Remove="Images\Appetizers\Image1.jpeg" />
+    <None Remove="Images\Appetizers\Image10.jpeg" />
+    <None Remove="Images\Appetizers\Image2.jpeg" />
+    <None Remove="Images\Appetizers\Image3.jpeg" />
+    <None Remove="Images\Appetizers\Image4.jpeg" />
+    <None Remove="Images\Appetizers\Image5.jpeg" />
+    <None Remove="Images\Appetizers\Image6.jpeg" />
+    <None Remove="Images\Appetizers\Image7.jpeg" />
+    <None Remove="Images\Appetizers\Image8.jpeg" />
+    <None Remove="Images\Appetizers\Image9.jpeg" />
+    <None Remove="Images\Desserts\Image1.jpeg" />
+    <None Remove="Images\Desserts\Image10.jpeg" />
+    <None Remove="Images\Desserts\Image2.jpeg" />
+    <None Remove="Images\Desserts\Image3.jpeg" />
+    <None Remove="Images\Desserts\Image4.jpeg" />
+    <None Remove="Images\Desserts\Image5.jpeg" />
+    <None Remove="Images\Desserts\Image6.jpeg" />
+    <None Remove="Images\Desserts\Image7.jpeg" />
+    <None Remove="Images\Desserts\Image8.jpeg" />
+    <None Remove="Images\Desserts\Image9.jpeg" />
+    <None Remove="Images\Main Course\Image1.jpeg" />
+    <None Remove="Images\Main Course\Image10.jpeg" />
+    <None Remove="Images\Main Course\Image2.jpeg" />
+    <None Remove="Images\Main Course\Image3.jpeg" />
+    <None Remove="Images\Main Course\Image4.jpeg" />
+    <None Remove="Images\Main Course\Image5.jpeg" />
+    <None Remove="Images\Main Course\Image6.jpeg" />
+    <None Remove="Images\Main Course\Image7.jpeg" />
+    <None Remove="Images\Main Course\Image8.jpeg" />
+    <None Remove="Images\Main Course\Image9.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image1.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image10.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image2.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image3.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image4.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image5.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image6.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image7.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image8.jpeg" />
+    <None Remove="Images\Non-Alcohol\Image9.jpeg" />
+    <None Remove="Images\Soups\Image1.jpeg" />
+    <None Remove="Images\Soups\Image10.jpeg" />
+    <None Remove="Images\Soups\Image2.jpeg" />
+    <None Remove="Images\Soups\Image3.jpeg" />
+    <None Remove="Images\Soups\Image4.jpeg" />
+    <None Remove="Images\Soups\Image5.jpeg" />
+    <None Remove="Images\Soups\Image6.jpeg" />
+    <None Remove="Images\Soups\Image7.jpeg" />
+    <None Remove="Images\Soups\Image8.jpeg" />
+    <None Remove="Images\Soups\Image9.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Alcohol\Image1.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alcohol\Image10.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alcohol\Image2.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alcohol\Image4.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alcohol\Image5.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alcohol\Image7.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alcohol\Image8.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Alcohol\Image9.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image1.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image10.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image2.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image4.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image5.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image6.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image7.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image8.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Appetizers\Image9.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image1.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image10.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image2.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image4.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image5.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image6.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image7.jpeg" />
+    <Content Include="Images\Desserts\Image8.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Desserts\Image9.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image1.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image10.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image2.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image4.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image5.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image6.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image7.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image8.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Main Course\Image9.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image1.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image10.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image2.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image4.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image5.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image6.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image7.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image8.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Non-Alcohol\Image9.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image1.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image10.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image2.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image4.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image5.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image6.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image7.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image8.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Soups\Image9.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSubstitute" Version="5.1.0" />
+    <PackageReference Include="System.Data.OleDb" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Alcohol\Image3.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Alcohol\Image6.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
