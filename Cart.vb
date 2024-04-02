@@ -25,7 +25,7 @@ Public Class Cart
 
     Private Function GetItemDetailsFromDatabase(itemName As String) As (itemName As String, price As Decimal)
         Dim query As String = "SELECT itemName, Price FROM Items WHERE itemName LIKE @itemName"
-        Dim itemNames() As String = {"itemName", "SoupsandSalad", "MainCourses", "Desserts", "Non-alcoholicDrinks", "AlcoholicDrinks"}
+        Dim itemNames() As String = {"itemName", "SoupsandSalads", "MainCourses", "Desserts", "Non-alcoholicDrinks", "AlcoholicDrinks"}
         Dim price As Decimal = 0
         Dim itemNameFromDB As String = ""
 
